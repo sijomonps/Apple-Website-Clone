@@ -1,0 +1,179 @@
+.nav-logo{
+    height: 15px;
+    margin-right: 50px;
+    margin-left: 200px;
+    
+}
+@media only screen and (max-width: 600px){
+    .nav-logo{
+        margin-left: 0px;
+        margin-right: 250px;
+    }
+}
+.navbar{
+    height: 30px;
+    
+}
+@media only screen and (max-width: 600px){
+    .navbar{
+        height: 50px;
+    }
+}
+@media only screen and (max-width: 400px){
+    .nav-logo{
+        margin-right: 243px;
+    }
+}
+.nav-text{
+    font-size: 12px;
+    margin-top: 4px;
+    margin-right: 20px;
+    color: black;
+}
+.row1para{
+    text-align: center;
+    margin-top: 25px;
+    font-size: 15px;
+}
+.main-page{
+    background-color: rgba(189, 213, 218, 0.185);
+    height: 575px;
+}
+.mainlogo{
+    height: 370;
+}
+@media only screen and (max-width: 600px){
+    .mainlogo{
+        height: 270px;
+        
+    }
+
+}
+.mainlogo-text{
+    font-weight: 600;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    font-size: 50px;
+    letter-spacing: .004em;
+    line-height: 1.125;
+}
+@media only screen and (max-width: 600px){
+    .mainlogo-text{
+        font-size: 30px;
+    }
+}
+.mainlogo-paragrah{
+    font-size: 22px;
+    line-height: 1.21053;
+    font-weight: 400;
+    letter-spacing: .012em;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+@media only screen and (max-width: 600px){
+    .mainlogo-paragrah{
+        font-size: 20px;
+    }
+}
+.btn{
+    background-color: rgb(0, 119, 255);
+    color: white;
+    border-radius: 20px;
+    height: 40px;
+    width: 120px;
+}
+.btn :hover{
+    color: white;
+}
+.container1{
+    background-color: black;
+    margin-top: 50px;
+    height: 500px;
+}
+@media only screen and (max-width: 400px){
+    .container1{
+        width: 390px;
+    }
+}
+.iphoneimg{
+    height: 400px;
+}
+@media only screen and (max-width: 600px){
+    .iphoneimg{
+        height: 200px;
+        margin-top: 100px;
+    }
+}
+.iphone-buttons{
+    display: flex;
+}
+.iphone-btn1{
+    color: white;
+    background-color: rgb(0, 119, 255);
+    border-radius: 20px;
+    height: 40px;
+    width: 120px;
+    border-width: 0px;
+    margin-right: 20px;
+}
+.iphone-btn2{
+    color:  rgb(0, 119, 255);
+    background-color:transparent;
+    border-radius: 20px;
+    height: 40px;
+    width: 90px;
+    border-width: 2px;
+    border-color: rgb(0, 119, 255);
+}
+.about-us-section{
+    height: 400px;
+}
+@media only screen and (max-width: 400px){
+    .about-us-section{
+        width: 390px;
+    }
+}
+.about-us-heading{
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    font-size: 32px;
+    line-height: 1.125;
+    font-weight: 600;
+    letter-spacing: .002em;
+    margin-top: 90px;
+}
+.about-us-para{
+    font-size: 22px;
+    line-height: 1.21053;
+    font-weight: 400px;
+    letter-spacing: .012em;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+@media only screen and (max-width: 600px){
+    .about-us-para{
+        font-size: 16px;
+        margin-bottom: 20px;
+        margin-right: 30px;
+        margin-left: 30px;
+    }
+}
+.contact-us-section{
+    background-color: black;
+    color: white;
+}
+@media only screen and (max-width: 400px){
+    .contact-us-section{
+        width: 390px;
+    }
+}
+.contact-us-heading{
+    margin-top: 50px;
+
+}
+.submit{
+    border-radius: 5px;
+    border-width: 1px;
+    color: white;
+    background-color:  rgb(3, 3, 3);
+    border-color: white;
+    width: 100px;
+}
